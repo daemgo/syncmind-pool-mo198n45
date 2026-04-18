@@ -1,6 +1,6 @@
 {
-  "version": "v0.2",
-  "currentVersion": "v0.2",
+  "version": "v0.3",
+  "currentVersion": "v0.3",
   "status": "draft",
   "confidence": 0.85,
   "companyName": "浙江缘巢家居科技有限公司",
@@ -117,6 +117,49 @@
       "openQuestions": []
     },
     {
+      "id": "need-005",
+      "title": "客户收集与拓展工具",
+      "category": "客户管理/销售拓展",
+      "status": "active",
+      "priority": "must-have",
+      "description": "建立多渠道客户信息收集能力，支持国内电商平台及海外市场的潜在客户数据采集与统一管理",
+      "requirements": [
+        {
+          "id": "req-005-001",
+          "description": "国内客户收集：支持从1688、淘宝、天猫、抖音等平台采集潜在客户信息（店铺名、联系方式、产品线等）",
+          "source": "客户明确需求",
+          "confidence": "high"
+        },
+        {
+          "id": "req-005-002",
+          "description": "海外客户收集：支持从海关编码数据、社交媒体（LinkedIn、Facebook等）、Google地图、关键词搜索等渠道采集海外客户信息",
+          "source": "客户明确需求",
+          "confidence": "high"
+        },
+        {
+          "id": "req-005-003",
+          "description": "客户数据统一入库，支持去重、分类（国内/海外）、打标签",
+          "source": "客户明确需求",
+          "confidence": "high"
+        },
+        {
+          "id": "req-005-004",
+          "description": "与现有钉钉销售管理模块（need-001）数据打通，客户信息可直接导入销售漏斗",
+          "source": "客户明确需求",
+          "confidence": "high"
+        },
+        {
+          "id": "req-005-005",
+          "description": "支持定期自动更新客户数据（如海关进出口数据、平台店铺变动等）",
+          "source": "客户隐含需求",
+          "confidence": "medium"
+        }
+      ],
+      "context": "客户有拓展跨境电商和国内外新客户的明确意愿，需系统化工具支撑客户开发工作",
+      "assumptions": ["各平台开放接口或数据源可用", "海关数据获取渠道合规"],
+      "openQuestions": ["各平台数据接口是否需要付费？", "海外社交媒体数据采集的合规边界？"]
+    },
+    {
       "id": "need-004",
       "title": "集成旺旺聊天的客服+工具软件",
       "category": "客户服务/营销工具",
@@ -212,6 +255,20 @@
       "status": "pending",
       "priority": "high",
       "relatedTo": "need-003"
+    },
+    {
+      "id": "pq-006",
+      "question": "各平台（海关数据、1688、抖音等）的数据接口是否已有渠道？预算多少？",
+      "status": "pending",
+      "priority": "high",
+      "relatedTo": "need-005"
+    },
+    {
+      "id": "pq-007",
+      "question": "海外客户收集的重点目标市场是哪些国家/地区？",
+      "status": "pending",
+      "priority": "medium",
+      "relatedTo": "need-005"
     }
   ],
   "completionRate": {
@@ -220,15 +277,16 @@
       "销售管理": 100,
       "供应商管理/风控": 100,
       "IT治理/数字化咨询": 25,
-      "客户服务/营销工具": 25
+      "客户服务/营销工具": 25,
+      "客户管理/销售拓展": 20
     },
-    "blockers": ["旺旺接口开放程度需确认", "企业软件清单收集方式待确认"]
+    "blockers": ["旺旺接口开放程度需确认", "企业软件清单收集方式待确认", "各平台数据接口获取方式待确认"]
   },
   "metadata": {
     "createdAt": "2026-04-18",
     "updatedAt": "2026-04-18T17:00:00+08:00",
     "createdBy": "AI",
     "confidence": 0.85,
-    "notes": "v0.2增量合并：新增企业软件治理（need-003）和客服工作台（need-004）两条需求，均为客户明确陈述，置信度高。pendingQuestions补充2条必问题。"
+    "notes": "v0.3增量合并：新增客户收集与拓展工具（need-005），覆盖国内外客户收集渠道。v0.2增量合并：新增企业软件治理（need-003）和客服工作台（need-004）两条需求。"
   }
 }
