@@ -1,0 +1,118 @@
+{
+  "companyName": "浙江缘巢家居科技有限公司",
+  "shortName": "缘巢家居",
+  "summary": "浙江缘巢家居科技有限公司是一家位于温州龙港的科技型中小企业，主营家居日用品制造与销售，以鲸叹号为品牌，涵盖橡胶塑料制品、母婴用品、医疗器械等多品类，产品主要通过1688等B端渠道销售，近年正向品牌化、智能化家居方向升级。",
+  "industry": "制造业",
+  "subIndustry": "橡胶和塑料制品业/家居用品制造",
+  "scale": "小微企业（100-499人）",
+  "mainBusiness": "家居日用品、塑料橡胶制品的研发、制造与销售，进出口贸易",
+  "products": [
+    { "name": "家居塑料制品", "description": "塑料家居用品、厨具卫具、日用杂品等塑料制品制造与销售" },
+    { "name": "橡胶制品", "description": "橡胶制品制造与销售" },
+    { "name": "母婴用品", "description": "母婴用品制造与销售" },
+    { "name": "一类医疗器械", "description": "第一类医疗器械销售" },
+    { "name": "文具/玩具/箱包", "description": "文具、玩具、箱包制造与销售" },
+    { "name": "工艺美术品", "description": "工艺美术品及礼仪用品制造与销售" }
+  ],
+  "targetCustomers": ["电商卖家（B端渠道商）", "跨境电商采购商", "1688/阿里巴巴平台买家", "国内贸易商", "C端消费者（鲸叹号品牌）"],
+  "businessModel": "OEM/ODM制造 + 自有品牌（鲸叹号）B2B批发为主，兼顾B2C",
+  "rating": "B",
+  "tags": ["科技型中小企业", "家居制造", "塑料橡胶", "母婴用品", "跨境电商", "1688渠道", "品牌化转型", "多品类布局"],
+  "website": null,
+  "slogan": null,
+  "isListed": false,
+  "stockCode": null,
+  "revenueScale": null,
+  "registration": {
+    "registeredName": "浙江缘巢家居科技有限公司",
+    "registeredCapital": "1000万(元)",
+    "paidCapital": "131万(元)",
+    "establishedDate": "2016-10-10",
+    "legalRepresentative": "沈丽君",
+    "businessStatus": "开业",
+    "shareholders": [
+      { "name": "上海橙行供应链有限公司", "equityRatio": "70%", "contributed": "91.7万(元)" },
+      { "name": "缘巢品牌管理(杭州)有限公司", "equityRatio": "30%", "contributed": "0" }
+    ],
+    "branchCount": 1,
+    "interpretation": "公司由沈丽君实际控制，股东含供应链公司和品牌管理公司，治理结构较为简单。沈丽君在12家企业担任法定代表人，关联企业覆盖浙江、上海、江苏等地，呈集团化布局但各主体规模均偏小。",
+    "organizationType": "其他有限责任公司",
+    "keyFindings": [
+      "2024年1月完成品牌升级，从\"浙江鲸叹号日用品有限公司\"更名为现名，同步扩大经营范围至家居科技领域",
+      "实缴资本仅131万，占注册资本13.1%，资金到位率偏低，存在资金杠杆",
+      "2025年7月新设子公司温州缘巢家居用品有限公司，扩张意图明显"
+    ]
+  },
+  "organization": {
+    "type": "小型制造企业，扁平化管理",
+    "decisionChain": "沈丽君为执行董事兼总经理，掌握经营决策权，重大事项直接拍板",
+    "keyPersons": [
+      { "name": "沈丽君", "title": "执行董事兼总经理" },
+      { "name": "沈礼特", "title": "监事" },
+      { "name": "沈丽君（关联）", "title": "缘巢品牌管理(杭州)负责人" }
+    ],
+    "salesStrategy": "以1688等B2B平台为主要获客渠道，通过定制业务吸引电商卖家；近年逐步建立鲸叹号品牌意识，尝试自有品牌建设；外贸出口为辅。"
+  },
+  "timing": {
+    "phase": "品牌升级与战略转型期",
+    "analysisBasis": [
+      "2024年1月完成企业更名及经营范围重大调整，从日化/塑胶转向家居科技",
+      "2024年招聘量激增425%，反映管理层有较强的扩张意愿",
+      "2025年7月新设子公司，向家居用品领域延伸"
+    ],
+    "entryStrategy": "以MES/ERP系统切入，帮助其实现从接单到交付的全流程数字化管控，提升产品质量追溯和订单透明度，作为进入其供应商体系的敲门砖",
+    "urgency": "中等——企业处于快速变化期，决策层关注效率提升，但需找到合适的切入角度和负责人"
+  },
+  "hiring": {
+    "keySignals": [
+      "2024年招聘量激增425%（2→21个），2025年回落67%，反映先扩张后收缩的经营节奏",
+      "目前在线岗位：1688定制业务员（4-7K）、总经理助理（6-10K），显示重视B端渠道和老板事务支持",
+      "招聘岗位集中在温州，本科为主，经验1-3年，薪酬区间4.5-8K，定位中等偏低",
+      "杭州设有点，说明公司有意在一线城市布局品牌/销售职能"
+    ]
+  },
+  "competition": {
+    "industryRank": null,
+    "marketShare": null,
+    "mainCompetitors": ["温州地区塑料家居制品工厂", "义乌塑料/橡胶日用品供应商", "龙港黄河产业园同类制造业企业"],
+    "knownClients": null
+  },
+  "riskAndPolicy": {
+    "legal": {
+      "lawsuitCount": null,
+      "executedPerson": false,
+      "dishonestPerson": false,
+      "businessAnomalies": [],
+      "equityFreeze": false
+    },
+    "policy": {
+      "isSpecializedSME": false,
+      "smeLevel": "",
+      "isHighTech": false,
+      "digitalTransformation": false,
+      "esgGreen": false
+    }
+  },
+  "painPoints": [
+    { "area": "生产管理", "description": "多品类混线生产，排产依赖人工经验，缺乏系统化排程工具，导致订单交期难以精确承诺", "severity": "高" },
+    { "area": "质量管理", "description": "产品品类多（塑料/橡胶/纺织/玩具等），质量标准不统一，追溯困难，28项专利体现研发能力但质量体系建设薄弱", "severity": "中" },
+    { "area": "订单管理", "description": "B端客户（1688）订单分散、定制需求多，传统方式难以高效跟踪订单进度和交期", "severity": "高" },
+    { "area": "成本核算", "description": "多品类生产中成本归集困难，报价依靠经验，实缴资本仅13%，反映出资金精细化管理能力不足", "severity": "中" },
+    { "area": "供应链管理", "description": "原材料采购涉及塑料粒子、橡胶、纺织品等多种物料，供应商分散，对账管理效率低", "severity": "中" }
+  ],
+  "opportunities": [
+    { "area": "品牌化升级", "description": "鲸叹号品牌已建立，企业更名后正向家居科技转型，存在较大的品牌化运营提升空间，可借数字化工具打造品牌差异化", "likelihood": "高" },
+    { "area": "跨境电商拓展", "description": "具备进出口资质，1688渠道已有基础，可借助数字化系统支撑更高效的跨境订单管理和海外客户对接", "likelihood": "中" },
+    { "area": "智能化工厂建设", "description": "科技型中小企业认定表明有一定研发意愿，可结合MES系统推进智能制造，提升产品一致性和生产效率", "likelihood": "中" }
+  ],
+  "analysisPath": "A",
+  "confidence": 0.65,
+  "metadata": {
+    "createdAt": "2026-04-18",
+    "updatedAt": "2026-04-18",
+    "createdBy": "AI",
+    "version": "1.0",
+    "sources": [],
+    "confidence": 0.65
+  }
+}
