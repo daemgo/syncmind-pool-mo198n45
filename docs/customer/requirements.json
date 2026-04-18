@@ -1,0 +1,129 @@
+{
+  "version": "v0.1",
+  "status": "draft",
+  "confidence": 0.85,
+  "companyName": "浙江缘巢家居科技有限公司",
+  "needs": [
+    {
+      "id": "need-001",
+      "title": "基于钉钉AI表格的销售管理模块",
+      "category": "销售管理",
+      "status": "active",
+      "priority": "must-have",
+      "description": "利用钉钉AI表格能力，建立标准化的销售管理模块，实现客户跟进、销售漏斗、业绩追踪等核心功能",
+      "requirements": [
+        {
+          "id": "req-001-001",
+          "description": "支持客户信息录入与分类管理，按渠道（1688/跨境电商/贸易商等）区分",
+          "source": "客户明确需求",
+          "confidence": "high"
+        },
+        {
+          "id": "req-001-002",
+          "description": "销售漏斗可视化，从线索到成交的全流程追踪",
+          "source": "客户明确需求",
+          "confidence": "high"
+        },
+        {
+          "id": "req-001-003",
+          "description": "业绩数据看板，支持按月/季/年统计销售额、毛利、回款",
+          "source": "客户明确需求",
+          "confidence": "high"
+        },
+        {
+          "id": "req-001-004",
+          "description": "与钉钉生态深度集成，支持移动端快速录入和审批",
+          "source": "客户明确需求",
+          "confidence": "high"
+        }
+      ],
+      "context": "客户以B端渠道（1688）为主要销售通路，定制业务占比高，需精细化销售过程管理",
+      "assumptions": ["客户已使用钉钉作为主要办公协作工具"],
+      "openQuestions": []
+    },
+    {
+      "id": "need-002",
+      "title": "基于syncmind的企业背调定制功能",
+      "category": "供应商管理/风控",
+      "status": "active",
+      "priority": "must-have",
+      "description": "基于syncmind平台能力，定制企业背调功能，用于对供应商、客户进行资质审核与风险评估",
+      "requirements": [
+        {
+          "id": "req-002-001",
+          "description": "支持自定义背调模板，适配家居制造业供应商审核标准",
+          "source": "客户明确需求",
+          "confidence": "high"
+        },
+        {
+          "id": "req-002-002",
+          "description": "集成工商信息、司法风险、经营状态等多维度数据查询",
+          "source": "客户明确需求",
+          "confidence": "high"
+        },
+        {
+          "id": "req-002-003",
+          "description": "背调报告自动生成，支持导出与存档",
+          "source": "客户明确需求",
+          "confidence": "high"
+        },
+        {
+          "id": "req-002-004",
+          "description": "支持批量背调任务，适合新供应商准入审核",
+          "source": "客户明确需求",
+          "confidence": "high"
+        }
+      ],
+      "context": "客户处于品牌化转型期，对供应链管控有较强需求，需系统化评估供应商资质",
+      "assumptions": ["syncmind平台提供背调API接口支持"],
+      "openQuestions": ["是否需要与钉钉审批流集成？"]
+    }
+  ],
+  "constraints": {
+    "budget": null,
+    "timeline": null,
+    "techStack": ["钉钉"],
+    "integration": ["钉钉AI表格", "syncmind平台"]
+  },
+  "successCriteria": [
+    "销售管理模块覆盖从线索到回款全流程",
+    "企业背调功能支持快速生成合规报告"
+  ],
+  "risksAndAssumptions": {
+    "risks": [
+      "钉钉AI表格能力边界需进一步确认",
+      "syncmind背调API是否支持定制模板"
+    ],
+    "assumptions": [
+      "客户具备钉钉专业版或更高版本",
+      "背调数据源接口可用"
+    ]
+  },
+  "pendingQuestions": [
+    {
+      "id": "pq-001",
+      "question": "销售管理模块是否需要与现有ERP/MES系统对接？",
+      "status": "pending",
+      "priority": "high"
+    },
+    {
+      "id": "pq-002",
+      "question": "企业背调报告的合规要求是什么？（数据来源、留存周期等）",
+      "status": "pending",
+      "priority": "medium"
+    },
+    {
+      "id": "pq-003",
+      "question": "两个模块是否需要统一登录认证，还是独立使用？",
+      "status": "pending",
+      "priority": "medium"
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-04-18",
+    "updatedAt": "2026-04-18",
+    "createdBy": "AI",
+    "confidence": 0.85,
+    "notes": "基于用户明确陈述的需求初始化，置信度较高"
+  }
+}
