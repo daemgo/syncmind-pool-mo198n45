@@ -319,6 +319,27 @@
       "status": "pending",
       "priority": "medium",
       "relatedTo": "need-005"
+    },
+    {
+      "id": "pq-008",
+      "question": "钉钉闪记API的开放程度如何？是否需要专业版以上权限才能接入会议转写数据？",
+      "status": "pending",
+      "priority": "high",
+      "relatedTo": "need-006"
+    },
+    {
+      "id": "pq-009",
+      "question": "是否需要支持非钉钉会议（如腾讯会议、线下会议录音）的内容转写接入？",
+      "status": "pending",
+      "priority": "medium",
+      "relatedTo": "need-006"
+    },
+    {
+      "id": "pq-010",
+      "question": "AI分析结果的准确率要求？是否需要人工审核后才能入库？",
+      "status": "pending",
+      "priority": "high",
+      "relatedTo": "need-006"
     }
   ],
   "completionRate": {
