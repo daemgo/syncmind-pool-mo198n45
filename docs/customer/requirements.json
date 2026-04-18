@@ -1,5 +1,6 @@
 {
-  "version": "v0.1",
+  "version": "v0.2",
+  "currentVersion": "v0.2",
   "status": "draft",
   "confidence": 0.85,
   "companyName": "浙江缘巢家居科技有限公司",
@@ -77,26 +78,106 @@
       "context": "客户处于品牌化转型期，对供应链管控有较强需求，需系统化评估供应商资质",
       "assumptions": ["syncmind平台提供背调API接口支持"],
       "openQuestions": ["是否需要与钉钉审批流集成？"]
+    },
+    {
+      "id": "need-003",
+      "title": "企业软件治理与梳理",
+      "category": "IT治理/数字化咨询",
+      "status": "active",
+      "priority": "should-have",
+      "description": "对企业现有软件资产进行全面梳理与评估，探索最优的软件整合方案",
+      "requirements": [
+        {
+          "id": "req-003-001",
+          "description": "全面调研企业现有软件清单，按功能模块（生产/销售/财务/供应链等）分类梳理",
+          "source": "客户明确需求",
+          "confidence": "high"
+        },
+        {
+          "id": "req-003-002",
+          "description": "评估各软件使用率、数据流转情况及现存痛点",
+          "source": "客户明确需求",
+          "confidence": "high"
+        },
+        {
+          "id": "req-003-003",
+          "description": "制定软件整合或替换方案，明确各软件角色与边界",
+          "source": "客户明确需求",
+          "confidence": "high"
+        },
+        {
+          "id": "req-003-004",
+          "description": "形成分阶段实施路线图，优先解决核心痛点",
+          "source": "客户明确需求",
+          "confidence": "high"
+        }
+      ],
+      "context": "客户使用的软件多且杂，处于品牌升级转型期，亟需理清软件家底，为后续数字化建设打基础",
+      "assumptions": ["客户愿意配合提供各软件使用情况数据", "企业有专人对接IT或数字化负责人"],
+      "openQuestions": []
+    },
+    {
+      "id": "need-004",
+      "title": "集成旺旺聊天的客服+工具软件",
+      "category": "客户服务/营销工具",
+      "status": "active",
+      "priority": "should-have",
+      "description": "定制一个集成旺旺聊天与产品检索、成本计算的客服工作台软件，支持边聊边查，提升客服响应效率",
+      "requirements": [
+        {
+          "id": "req-004-001",
+          "description": "集成旺旺聊天消息接收与发送，支持多账号管理",
+          "source": "客户明确需求",
+          "confidence": "high"
+        },
+        {
+          "id": "req-004-002",
+          "description": "实时根据客户聊天内容匹配产品库，支持关键词快速检索",
+          "source": "客户明确需求",
+          "confidence": "high"
+        },
+        {
+          "id": "req-004-003",
+          "description": "支持快速成本核算与报价，支持边聊边算",
+          "source": "客户明确需求",
+          "confidence": "high"
+        },
+        {
+          "id": "req-004-004",
+          "description": "工作台界面设计：聊天窗口旁侧集成产品检索与成本计算工具",
+          "source": "客户明确需求",
+          "confidence": "high"
+        }
+      ],
+      "context": "客户B端渠道占比高，旺旺是主要客户沟通工具，定制需求多，客服需快速响应产品查询与成本核算",
+      "assumptions": ["旺旺开放接口支持第三方集成", "企业有标准化的产品BOM数据支撑成本核算"],
+      "openQuestions": []
     }
   ],
   "constraints": {
     "budget": null,
     "timeline": null,
-    "techStack": ["钉钉"],
-    "integration": ["钉钉AI表格", "syncmind平台"]
+    "techStack": ["钉钉", "旺旺"],
+    "integration": ["钉钉AI表格", "syncmind平台", "旺旺"]
   },
   "successCriteria": [
     "销售管理模块覆盖从线索到回款全流程",
-    "企业背调功能支持快速生成合规报告"
+    "企业背调功能支持快速生成合规报告",
+    "软件治理方案覆盖全部现有软件并给出整合建议",
+    "客服工作台支持边聊边查产品与快速成本核算"
   ],
   "risksAndAssumptions": {
     "risks": [
       "钉钉AI表格能力边界需进一步确认",
-      "syncmind背调API是否支持定制模板"
+      "syncmind背调API是否支持定制模板",
+      "旺旺接口开放程度决定客服软件集成可行性",
+      "企业软件清单收集难度较高，需客户充分配合"
     ],
     "assumptions": [
       "客户具备钉钉专业版或更高版本",
-      "背调数据源接口可用"
+      "背调数据源接口可用",
+      "旺旺开放接口支持消息拉取与发送",
+      "企业有专人对接IT或数字化负责人"
     ]
   },
   "pendingQuestions": [
@@ -117,13 +198,37 @@
       "question": "两个模块是否需要统一登录认证，还是独立使用？",
       "status": "pending",
       "priority": "medium"
+    },
+    {
+      "id": "pq-004",
+      "question": "旺旺账号数量及日均咨询量是多少？现有客服有几人是专职？",
+      "status": "pending",
+      "priority": "high",
+      "relatedTo": "need-004"
+    },
+    {
+      "id": "pq-005",
+      "question": "企业现有软件清单能否一次性提供？由哪个部门/人员负责统筹？",
+      "status": "pending",
+      "priority": "high",
+      "relatedTo": "need-003"
     }
   ],
+  "completionRate": {
+    "overall": 40,
+    "byCategory": {
+      "销售管理": 100,
+      "供应商管理/风控": 100,
+      "IT治理/数字化咨询": 25,
+      "客户服务/营销工具": 25
+    },
+    "blockers": ["旺旺接口开放程度需确认", "企业软件清单收集方式待确认"]
+  },
   "metadata": {
     "createdAt": "2026-04-18",
-    "updatedAt": "2026-04-18",
+    "updatedAt": "2026-04-18T17:00:00+08:00",
     "createdBy": "AI",
     "confidence": 0.85,
-    "notes": "基于用户明确陈述的需求初始化，置信度较高"
+    "notes": "v0.2增量合并：新增企业软件治理（need-003）和客服工作台（need-004）两条需求，均为客户明确陈述，置信度高。pendingQuestions补充2条必问题。"
   }
 }
